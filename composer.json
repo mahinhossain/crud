@@ -2,7 +2,7 @@
   "name": "mahin/crud-generator",
   "description": "crud",
   "type": "library",
-  "license": "no",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Mahin\\CrudGenerator\\": "packages/Mahin/CrudGenerator/src/"
