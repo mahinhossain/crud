@@ -1,0 +1,32 @@
+{
+  "name": "mahin/crud-generator",
+  "description": "crud",
+  "type": "library",
+  "license": "no",
+  "autoload": {
+    "psr-4": {
+      "Mahin\\CrudGenerator\\": "packages/Mahin/CrudGenerator/src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "mahinhossain",
+      "email": "mahin121121@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mahin\\CrudGenerator\\CrudGeneratorServiceProvider"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "packages/Mahin/CrudGenerator"
+    }
+  ]
+ 
+}
